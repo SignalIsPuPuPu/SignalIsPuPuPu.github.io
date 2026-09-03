@@ -10,3 +10,10 @@ Gemfile.lock
 # Ingore files created by npm
 node_modules
 package-lock.json
+# Local academic CV build outputs
+_config_local.yml
+cv/*.aux
+cv/*.log
+cv/*.out
+cv/*.pdf
+cv/build/

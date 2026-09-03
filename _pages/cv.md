@@ -1,64 +1,51 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
 ---
 
-{% include base_path %}
-
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
 
-Work experience
+**Harbin Institute of Technology**, Harbin, China<br>
+Ph.D. in Computer Science and Technology, Faculty of Computing<br>
+September 2025 - June 2030 (expected)<br>
+Advisor: Prof. Jie Liu
+
+**Harbin Institute of Technology**, Harbin, China<br>
+B.Eng. in Engineering Thermophysics, School of Energy Science and Engineering<br>
+August 2021 - June 2025<br>
+Ranked 1st out of 157 students in both academic performance and the graduate recommendation evaluation.
+
+Research Interests
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+- Embodied intelligence and robot learning
+- Vision-language-action models
+- Multimodal and 3D perception
+- Robot manipulation, simulation, and evaluation
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
+
+**CoFiE: Coarse-to-Fine Evidence Selection for Efficient Streaming Video Understanding**<br>
+Jing Jiang\*, **Yiran Ling\***, Ruonan Li, Dimitrios Stamoulis, and Jie Liu<br>
+*Conference on Empirical Methods in Natural Language Processing (EMNLP), 2026. \* Equal contribution. Paper, project, and code links forthcoming.*
+
+**Guide, Think, Act: Interactive Embodied Reasoning in Vision-Language-Action Models**<br>
+**Yiran Ling\***, Qing Lian\*, Jinghang Li, Qing Jiang, Tianming Zhang, Xiaoke Jiang, Chuanxiu Liu, Jie Liu, and Lei Zhang<br>
+*European Conference on Computer Vision (ECCV), 2026. \* Equal contribution.*<br>
+[Paper](https://arxiv.org/abs/2605.13632) · [Project Page](https://signalispupupu.github.io/GTA-VLA_ProjPage/) · [Code](https://github.com/FutianLabs/GTA-VLA)
+
+Selected Honors
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+
+- National Scholarship, awarded twice (top 1%)
+- Outstanding Graduate of Heilongjiang Province and Harbin Institute of Technology
+- Outstanding Student of Heilongjiang Province (top 3%)
+- Chunhui Innovation Achievement Award, Harbin Institute of Technology
+
+A downloadable PDF version of the full academic CV will be added after the remaining research and project sections are finalized.

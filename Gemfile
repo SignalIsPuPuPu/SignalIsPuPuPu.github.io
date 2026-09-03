@@ -11,6 +11,9 @@ source "https://rubygems.org"
 
 gem "github-pages", group: :jekyll_plugins
 
+# Keep local builds compatible with the system Ruby 2.6 bundled with macOS.
+gem "ffi", "~> 1.16.3"
+
 # If you want to use Jekyll native, uncomment the line below.
 # To upgrade, run `bundle update`.
 

@@ -1,0 +1,42 @@
+%!TEX TS-program = lualatex
+%!TEX encoding = UTF-8 Unicode
+% Academic CV based on https://github.com/posquit0/Awesome-CV
+
+\documentclass[11pt, a4paper]{awesome-cv}
+
+\geometry{left=1.5cm, top=1.0cm, right=1.5cm, bottom=1.8cm, footskip=.5cm}
+\colorlet{awesome}{awesome-skyblue}
+\setbool{acvSectionColorHighlight}{true}
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+\name{Yiran}{Ling}
+\position{Ph.D. Student in Computer Science and Technology}
+\address{Harbin, China}
+% \mobile{(+00) 000-0000-0000}
+\email{25B903029@stu.hit.edu.cn}
+\homepage{SignalIsPuPuPu.github.io}
+\github{SignalIsPuPuPu}
+% \linkedin{your-linkedin-id}
+% \googlescholar{your-scholar-id}{Google Scholar}
+% \orcid{0000-0000-0000-0000}
+
+\begin{document}
+
+\makecvheader[C]
+\makecvfooter
+  {\today}
+  {Yiran Ling~~~·~~~Academic Curriculum Vitae}
+  {\thepage}
+
+\input{sections/education.tex}
+\input{sections/research.tex}
+\input{sections/publications.tex}
+\input{sections/honors.tex}
+\input{sections/skills.tex}
+
+% Enable these sections after the project and publication details are finalized.
+% \input{sections/experience.tex}
+% \input{sections/teaching.tex}
+% \input{sections/service.tex}
+
+\end{document}

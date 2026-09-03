@@ -1,0 +1,30 @@
+{% assign paper = include.paper %}
+<article class="paper-card" aria-labelledby="paper-{{ paper.id }}-title">
+  <div class="paper-card__header">
+    <a class="paper-card__media" href="{{ paper.detail_url | relative_url }}" aria-label="Read more about {{ paper.title }}">
+      <img src="{{ paper.image | relative_url }}" alt="{{ paper.image_alt }}">
+    </a>
+    <div class="paper-card__heading">
+      <div class="paper-card__eyebrow">
+        <span class="paper-card__guide-dot" aria-hidden="true"></span>
+        <span>{{ paper.badge }}</span>
+      </div>
+      <h2 class="paper-card__title" id="paper-{{ paper.id }}-title">
+        <a href="{{ paper.detail_url | relative_url }}">{{ paper.title }}</a>
+      </h2>
+    </div>
+  </div>
+  <div class="paper-card__body">
+    <p class="paper-card__authors">{{ paper.authors }}</p>
+    <p class="paper-card__note">{{ paper.note }}</p>
+    <p class="paper-card__venue">{{ paper.venue }}</p>
+    <p class="paper-card__summary">{{ paper.summary }}</p>
+    {% if paper.paper_url or paper.project_url or paper.code_url %}
+      <nav class="paper-card__links" aria-label="Links for {{ paper.title }}">
+        {% if paper.paper_url %}<a href="{{ paper.paper_url }}">Paper</a>{% endif %}
+        {% if paper.project_url %}<a href="{{ paper.project_url }}">Project</a>{% endif %}
+        {% if paper.code_url %}<a href="{{ paper.code_url }}">Code</a>{% endif %}
+      </nav>
+    {% endif %}
+  </div>
+</article>
