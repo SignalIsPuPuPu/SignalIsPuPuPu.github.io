@@ -1,6 +1,7 @@
 ---
 permalink: /
 title: "About Me"
+browser_title: "Yiran Ling"
 author_profile: true
 redirect_from:
   - /about/
