@@ -33,8 +33,8 @@ Selected Honors
 
 - Ranked 1st of 157 students in academics and graduate recommendation evaluation
 - National Scholarship, awarded twice (top 1%)
-- Chunhui Innovation Achievement Award, the highest student innovation and entrepreneurship honor at Harbin Institute of Technology (Top 18 across all campuses)
-- Nominee for the Li Chang Award, Harbin Institute of Technology (Top 23 across all campuses)
+- Chunhui Innovation Achievement Award, the highest student innovation and entrepreneurship honor at Harbin Institute of Technology (Top 18 across all HIT campuses)
+- Nominee for the Li Chang Award, Harbin Institute of Technology (Top 23 across all HIT campuses)
 - Outstanding Graduate of Heilongjiang Province and Harbin Institute of Technology
 - Outstanding Student of Heilongjiang Province (top 3%)
 - First-Class People's Scholarship (top 3%)
